@@ -10,6 +10,7 @@ A Java-based Learning Management System for managing student and teacher informa
 **Project Structure**
 -----------------
 Ims-webapp
+
 ├── src
 
 │   │
