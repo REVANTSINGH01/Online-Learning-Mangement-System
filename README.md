@@ -11,8 +11,11 @@ A Java-based Learning Management System for managing student and teacher informa
 -----------------
 Ims-webapp
 ├── src
+
 │   │
+
 │   ├── main
+
 │   │
 │   │   ├── resources
 │   │   │
