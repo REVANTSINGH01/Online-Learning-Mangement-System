@@ -11,37 +11,67 @@ A Java-based Learning Management System for managing student and teacher informa
 -----------------
 Ims-webapp
 ├── src
+│   │
 │   ├── main
+│   │
 │   │   ├── resources
+│   │   │
 │   │   │   └── META-INF
+│   │   │
 │   │   │       └── resources
+│   │   │
 │   │   │           └── application.properties
 │   │   ├── java
+│   │   │
 │   │   │   └── com
+│   │   │
 │   │   │       └── lms
+│   │   │
 │   │   │           ├── Main.java
+│   │   │
 │   │   │           ├── dao
+│   │   │
 │   │   │           │   ├── CourseDAO.java
+│   │   │
 │   │   │           │   ├── DBConnection.java
+│   │   │
 │   │   │           │   └── UserDAO.java
+│   │   │
 │   │   │           ├── model
+│   │   │
 │   │   │           │   ├── Course.java
+│   │   │
 │   │   │           │   └── User.java
+│   │   │
 │   │   │           └── service
+│   │   │
 │   │   │               ├── CourseService.java
+│   │   │
 │   │   │               └── UserService.java
+│   │   │
 │   │   └── test
-│   │       └── java
+│   │   
+│   │      └── java
+│   │   
 │   │           └── com
+│   │    
 │   │               └── lms
+│
 │   │                   └── MainTest.java
 │   └── test
+│
 │       └── resources
+│
 │           └── META-INF
+│
 │               └── resources
+│
 │                   └── application.properties
+│
 ├── pom.xml
+│
 └── schema.sql
+│
 |
 README.md
 
