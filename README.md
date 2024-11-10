@@ -1,7 +1,8 @@
-Project Overview
+#ONLINE LEARNING MANAGEMENT SYSTEM
+##Project Overview
 A Java-based Student Management System for managing student and teacher information using MySQL database.
 
-Project Structure
+##Project Structure
 
 Ims-webapp
 ├── src
@@ -39,7 +40,7 @@ Ims-webapp
 |
 README.md
 
-Prerequisites
+##Prerequisites
 Java Development Kit (JDK) 8 or higher
 MySQL Database
 Maven for dependency management
@@ -81,12 +82,12 @@ Right-click on Main.java and select Run As > Java Application.
 The application will run, and you should see output in the console displaying the added students and teachers.
 By following these steps, you should be able to run the Student Management System project in Eclipse IDE successfully.
 
-Features
+##Features
 Add new students
 Add new teachers
 Retrieve all students
 Retrieve all teachers
-Database Schema
+##Database Schema
 USER Table
 id (Primary Key)
 name
