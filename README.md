@@ -11,6 +11,12 @@ A Java-based Learning Management System for managing student and teacher informa
 -----------------
 Ims-webapp
 
+├── pom.xml
+
+├── schema.sql
+
+├──README.md 
+
 ├── src
 
 │   │
@@ -128,17 +134,23 @@ Ims-webapp
 
 │
 
-├── pom.xml
-
 │
 
-└── schema.sql
+└──web 
 
-│
+├── index.html
 
-|
+├── dashboard.html
 
-README.md
+├── courses.html
+
+├── assignments.html
+
+├── profile.html
+
+├── script.js
+
+
 
 **Prerequisites**
 -------------
@@ -195,6 +207,36 @@ Features
 - Add new teachers
 - Retrieve all students
 - Retrieve all teachers
+
+**Running WebApp in browser**
+-----------------------------
+Step 1: Clone the Repository
+
+1. Open a terminal or command prompt.
+2. Clone the repository.
+3. Navigate to the project directory.
+4. Step 2: Import Files in VSCode.
+
+Step 2: Open VSCode.
+1. Go to File > Import....
+2. Browse to the directory where you cloned the project and select it.
+3. CLick on Import.
+4. Run the file by opening the Index.html file in Browser.
+
+Step 3: Accessing The Student Management System.
+
+Username: admin
+Password: admin
+
+1. Once entering the default username and password user will be redirected to the Dashboard.
+2. Once in Dashboard user can access all the features of student management system.
+
+**Features in WebApp**
+----------------------
+Assignment Submission
+Profile Updation
+Courses Content/Enrollment
+TimeLine of Assignments
 
 Database Schema
 ---------------
