@@ -181,7 +181,7 @@ Step 4: Configure Database Connection
    1. Open the file DBConnection.java located at 'src/main/java/com/sms/dao/DBConnection.java'
    2. Ensure that the database connection details (URL, USER, PASSWORD) are correctly set
       Update connection details:
-         - URL: jdbc:mysql://localhost:3306/student_management
+         - URL: jdbc:mysql://localhost:3306/learning_management
          - USER: root // or your MySQL username
          - PASSWORD: root // or your MySQL password
 
@@ -195,11 +195,11 @@ Step 5: Add Dependencies
       - MYSQL Workbench
 
 Step 6: Run the Application
-   1. Open the Main.java file located at src/main/java/com/sms/student_management_system/Main.java.
+   1. Open the Main.java file located at src\mainn\java\com\lms\Main.java.
    2. Right-click on Main.java and select Run As > Java Application.
    3. The application will run, and you should see output in the console displaying the added students and teachers.
 
-By following these steps, you should be able to run the Student Management System project in Eclipse IDE successfully.
+By following these steps, you should be able to run the Learning Management System project in Eclipse IDE successfully.
 
 Features
 --------
@@ -221,15 +221,15 @@ Step 2: Open VSCode.
 1. Go to File > Import....
 2. Browse to the directory where you cloned the project and select it.
 3. CLick on Import.
-4. Run the file by opening the Index.html file in Browser.
+4. Run the file by opening the Index (1).html file in Browser.
 
-Step 3: Accessing The Student Management System.
+Step 3: Accessing The Learning Management System.
 
 Username: admin
 Password: admin
 
 1. Once entering the default username and password user will be redirected to the Dashboard.
-2. Once in Dashboard user can access all the features of student management system.
+2. Once in Dashboard user can access all the features of learning management system.
 
 **Features in WebApp**
 ----------------------
