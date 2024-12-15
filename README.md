@@ -136,7 +136,7 @@ Ims-webapp
 
 │
 
-└──web 
+└──WEBAPP
 
 ├── index.html
 
@@ -214,8 +214,9 @@ Step 1: Clone the Repository
 
 1. Open a terminal or command prompt.
 2. Clone the repository.
-3. Navigate to the project directory.
-4. Step 2: Import Files in VSCode.
+3. All files of web development based present in WEBAPP folder in the repository.
+4. Navigate to the project directory.
+5. Step 2: Import Files in VSCode.
 
 Step 2: Open VSCode.
 1. Go to File > Import....
