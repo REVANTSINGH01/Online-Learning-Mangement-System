@@ -138,7 +138,7 @@ Ims-webapp
 
 └──WEBAPP
 
-├── index.html
+├── index (1).html
 
 ├── dashboard.html
 
