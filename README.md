@@ -138,18 +138,27 @@ Ims-webapp
 
 └──WEBAPP
 
-├── index (1).html
+├── index.jsp
 
-├── dashboard.html
+├── dashboard.jsp
 
-├── courses.html
+├── courses.jsp
 
-├── assignments.html
+├── assignments.jsp
 
-├── profile.html
+├── profile.jsp
 
-├── script.js
+├── index.js
 
+├── profile.js
+
+├── dashboard.js
+
+├── courses.js
+
+├── assignments.js
+
+├── lms.jpg
 
 
 **Prerequisites**
@@ -238,6 +247,27 @@ Assignment Submission
 Profile Updation
 Courses Content/Enrollment
 TimeLine of Assignments
+
+## New Functionalities Added
+
+### 1. Create and Configure Servlets
+- Added `RegistrationServlet` for handling user registration.
+- Added `ProfileServlet` for displaying and updating user profiles.
+
+### 2. Implement doGet and doPost Methods
+- `doGet`: Used for rendering JSP pages with pre-fetched user data.
+- `doPost`: Handles form submissions and user input processing.
+
+### 3. Implement User Registration and Profile Using Servlets
+- **Registration**: Users can register using a form, and the data is stored in the database.
+- **Profile**: Users can view and edit their profiles dynamically.
+
+### 4. Integrate JSP with Servlets
+- Servlets act as controllers, forwarding requests to JSP pages for rendering dynamic content.
+
+### 5. Use JSTL and EL in JSP Pages
+- Used **JSTL** (JavaServer Pages Standard Tag Library) for looping and conditional rendering.
+- Used **EL** (Expression Language) for dynamic content display.
 
 Database Schema
 ---------------
